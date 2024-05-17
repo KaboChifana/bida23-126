@@ -93,9 +93,27 @@ footer {
 }
 
 .row h2{
-    text-align: center;
+    text-align: left;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     padding-top: 20px;
+}
+
+.row p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: monospace;
+}
+
+.row p:hover{
+    color: red;
+}
+
+.row a{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
 }
