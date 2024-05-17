@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+}
+
+nav {
+    font-size: 15px;
+    background-color: rgb(20, 20, 20);
+    font-family: monospace;
+}
+
+nav a:hover {
+    -webkit-text-fill-color: rgb(255, 0, 0); 
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 6px;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+#AboutWarnerBros{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(20, 20, 20);
+}
+
+#AboutWarnerBros h2{
+    color: red;
+    -webkit-text-fill-color: red;
+}
+
+#AboutUs{
+    color: red;
+    -webkit-text-fill-color: red;
+}
+
+.footer-icons img{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    margin: 15px;
+    
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row .column img{
+    border: 3px solid rgb(215, 8, 8);
+    border-radius: 4px;
+    padding: 2px;
+    justify-content: center;
+}
+
+.row .column img:hover{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.row h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    padding-top: 20px;
+}
