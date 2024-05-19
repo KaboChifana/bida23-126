@@ -44,11 +44,11 @@ i {
 } 
 
 .form-box { 
-  background-color: rgb(20, 20, 20); 
+  background-color: rgb(30, 30, 30); 
   box-shadow: 0 0 10px red; 
   padding: 15px; 
   border-radius: 8px; 
-  width: 500px; 
+  width: 90%; 
 } 
 
 form { 
