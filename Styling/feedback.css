@@ -102,3 +102,7 @@ main button:hover {
 footer a{
   text-decoration: none;
 }
+
+.radio-group {
+  width: 90%;
+}
